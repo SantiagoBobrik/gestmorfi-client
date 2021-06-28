@@ -1,6 +1,6 @@
 import React from "react";
 import { Heading } from "@chakra-ui/layout";
-const index = () => {
+const Home = () => {
   return (
     <>
       <Heading color="text.onBackground">GestMorfi</Heading>{" "}
@@ -9,4 +9,4 @@ const index = () => {
   );
 };
 
-export default index;
+export default Home;
