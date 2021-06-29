@@ -9,7 +9,7 @@ export const Routes = () => {
     <Box bg="background.400" h="100vh">
       <Router>
         <Switch>
-          <Route exact path="/" render={Home} />
+          <Route exact path="/" component={Home} />
         </Switch>
       </Router>
     </Box>
